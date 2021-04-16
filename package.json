@@ -1,0 +1,24 @@
+{
+  "name": "mini-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCbryant/mini-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCbryant/mini-editor/issues"
+  },
+  "homepage": "https://github.com/DCbryant/mini-editor#readme",
+  "devDependencies": {
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4"
+  }
+}
