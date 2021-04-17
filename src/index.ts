@@ -1,7 +1,8 @@
-import './index.css'
-const add = (a: number, b: number) => {
-  return a + b
-}
+import Editor from './editor/index'
 
+const div = document.createElement('div')
+div.setAttribute('id', 'root')
+document.body.append(div)
 
-console.log(add(1, 2))
+const editor = new Editor('root')
+editor.create()
