@@ -20,7 +20,7 @@ class Editor {
   ];
 
   constructor(selector: string) {
-    this.container = document.getElementById(selector)
+    this.container = document.querySelector(selector)
     this.selection = window.getSelection();
     if (!this.container) {
       throw Error('can not find dom selector, please check your selector ')
@@ -46,7 +46,7 @@ class Editor {
     this.exec("backColor", true, color);
   }
 
-  recoverRange() {
+  recoverRange = () => {
     const { selection, range } = this;
 
     if (selection && range) {
@@ -56,7 +56,7 @@ class Editor {
     }
   }
 
-  storeRange() {
+  storeRange = () => {
     const { selection } = this;
     // 存在selection但是没有框选
     if (selection && !selection.isCollapsed) {
