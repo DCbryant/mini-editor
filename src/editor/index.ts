@@ -1,6 +1,6 @@
 import {createElement, attr} from '../utils/index'
 import './index.css'
-
+// 
 class Editor {
   // 包裹父节点
   public container: HTMLElement
