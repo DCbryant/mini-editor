@@ -112,3 +112,5 @@ recoverRange() {
 此时就大功告成了！
 
 ## 实现效果
+
+![编辑器效果](https://sm.ms/delete/9TcPjgIbM2HnDerpOz64Gyfl5t)
