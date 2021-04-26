@@ -22,6 +22,6 @@ fork跟clone有些类似，clone别人的代码这代码的所有权还是别人
 ### git rebase 
 git rebase 可以合并最近commit记录，比如`git rebase -i HEAD~2`会合并最近两次提交记录，但更重要的是同merge一样用来合并分支`git rebase xx`,rebase会把提交历史整理成一条直线，看上去更直观
 
-## Code Review
+## 5. code review
 
 代码审查其实是团队一起做的，需要团队对代码做一些规范，然后审查代码的时候一一比对规范，没有代码规范，审查也没太大意义
